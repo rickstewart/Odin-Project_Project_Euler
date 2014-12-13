@@ -1,0 +1,591 @@
+/* Modified Eric Meyer's Reset CSS v2.0 - http://cssreset.com */
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, a, em, img, small, strong, dl, dt, dd, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, footer, header, menu, nav, ruby, section, audio, video {
+    border         : 0;
+    font-size      : 100%;
+    font           : inherit;
+    vertical-align : baseline;
+    margin         : 0;
+    padding        : 0;
+    }
+
+article, aside, footer, header, menu, nav, section {
+    display : block;
+    }
+
+body {
+    line-height : 1;
+    }
+
+ol, ul {
+    list-style : none;
+    }
+
+blockquote, q {
+    quotes : none;
+    }
+
+blockquote:before, blockquote:after, q:before, q:after {
+    content : none;
+    }
+
+table {
+    border-collapse : collapse;
+    border-spacing  : 0;
+    }
+
+body {
+    background-color : #FFFFFF;
+    display          : block;
+    overflow         : hidden;
+    }
+
+#container {
+    position  : absolute;
+    top       : 0;
+    left      : 0;
+    width     : 100%;
+    font-size : 0;
+    }
+
+#header {
+    display          : inline-block;
+    position         : fixed;
+    z-index          : 2;
+    width            : 99%;
+    height           : 100px;
+    border           : 8px solid #222222;
+    font-size        : 20px;
+    font-weight      : 200;
+    font-variant     : small-caps;
+    letter-spacing   : 1px;
+    color            : #aaa;
+    background-color : #222222;
+    }
+
+#leftside {
+    position : absolute;
+    display  : inline-block;
+    border   : 1px solid #222222;
+    margin   : 5px 0 0 20px;
+    height   : 98px;
+    width    : 217px;
+    left     : 0;
+    }
+
+#middle {
+    position    : relative;
+    display     : inline-block;
+    border      : 1px solid #222222;
+    height      : 98px;
+    width       : 300px;
+    margin      : 0 0 0 38%;
+    font-size   : 26px;
+    line-height : 1.3;
+    }
+
+#middle p {
+    text-align : center;
+    vert-align : middle;
+    border     : 1px solid #222222;
+    margin     : 16px 0 0 0;
+    }
+
+#clear {
+    clear   : both;
+    display : block;
+    border  : 1px solid #222222;
+    }
+
+#underpart {
+    display          : block;
+    position         : relative;
+    top              : 116px;
+    width            : auto;
+    height           : 22px;
+    border           : 1px solid #2E2E37;
+    border-top       : 1px solid #7f1000;
+    margin           : 0 auto;
+    padding          : 11px 0 0 0;
+    font-family      : 'Libre Baskerville', serif;
+    font-size        : 12px;
+    font-style       : italic;
+    background-color : #2E2E37;
+    color            : #aaaaaa;
+    text-align       : center;
+    }
+
+#underpart a {
+    text-decoration : none;
+    color           : #5f9ea0;
+    font-variant    : small-caps;
+    letter-spacing  : 1.4px;
+    }
+
+#underpart a:hover {
+    text-decoration : none;
+    color           : #4169E1;
+    font-variant    : small-caps;
+    }
+
+#underpart a:focus {
+    text-decoration : none;
+    color           : #073e80;
+    font-variant    : small-caps;
+    }
+
+#buttonBarWrapper {
+    position : fixed;
+    top      : 200px;
+    left     : 40px;
+    height   : 300px;
+    width    : 140px;
+    border   : 1px solid #FFFFFF;
+    color    : black;
+    }
+
+#buttonBarWrapper ul {
+    list-style : none;
+    }
+
+#buttonBarWrapper ul div {
+    display          : block;
+    margin           : 0 0 12px 0;
+    padding          : 10px 15px;
+    text-decoration  : none;
+    font-weight      : bold;
+    font-size        : 16px;
+    text-align       : center;
+    border           : 1px solid #CCCCCC;
+    border-radius    : 6px;
+    box-shadow       : 6px 6px 3px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+#buttonBarWrapper ul div:hover {
+    display          : block;
+    text-decoration  : none;
+    font-weight      : bold;
+    font-size        : medium;
+    border           : 1px solid #DDDDDD;
+    box-shadow       : 8px 8px 4px #888888;
+    background-color : #98a0a5;
+    color            : #017193;
+    }
+
+#buttonBarWrapper ul div:focus {
+    display          : block;
+    text-decoration  : none;
+    font-weight      : bold;
+    font-size        : medium;
+    border           : 1px solid #EEEEEE;
+    background-color : #dddddd;
+    color            : #017193;
+    }
+
+/* Start of Assignment #1 */
+
+label {
+    font-weight : bolder;
+    }
+
+#assignment1 {
+    display          : block;
+    position         : absolute;
+    width            : 700px;
+    height           : 360px;
+    top              : 180px;
+    left             : 240px;
+    border           : 1px solid #2E2E37;
+    margin           : auto;
+    font-weight      : normal;
+    font-family      : arial, sans-serif;
+    line-height      : 18px;
+    font-size        : medium;
+    color            : black;
+    background-color : #FFFFFF;
+    }
+
+#assignment1 img {
+    border  : 1px solid #FFFFFF;
+    padding : 24px 0 0 20px;
+    }
+
+#p1 {
+    font-size   : 22px;
+    font-weight : bold;
+    text-align  : center;
+    text-shadow : 2px 2px 2px #888888;
+    }
+
+#p2 {
+    font-size       : 18px;
+    padding         : 0 0 0 10PX;
+    text-decoration : underline;
+    margin          : 10px 10px 10px 20px;
+    }
+
+#p3 {
+    margin : 15px 10px 10px 30px;
+    }
+
+#p4 {
+    margin : 10px 10px 10px 30px;
+    }
+
+#button1 {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    vertical-align   : middle;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+#button1:hover {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    vertical-align   : middle;
+    text-decoration  : none;
+    border           : 1px solid #98a0a5;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #98a0a5;
+    color            : #073e80;
+    }
+
+#button1:focus {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    vertical-align   : middle;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+form {
+    border : 1px solid #FFFFFF;
+    margin : 30px 0 0 30px;
+    }
+
+#label1 {
+    margin : 0 0 0 20px;
+    }
+
+#input1 {
+    display        : inline-block;
+    width          : 70px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 4px;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+#label2 {
+    margin : 0 0 0 20px;
+    }
+
+#result1 {
+    display        : inline-block;
+    width          : 140px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 0;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+/* Start of Assignment #2 */
+
+#assignment2 {
+    display          : block;
+    position         : absolute;
+    width            : 700px;
+    height           : 360px;
+    top              : 180px;
+    left             : 240px;
+    border           : 1px solid #2E2E37;
+    margin           : auto;
+    line-height      : 18px;
+    font-weight      : normal;
+    font-family      : arial, sans-serif;
+    font-size        : medium;
+    color            : black;
+    background-color : #FFFFFF;
+    }
+
+#assignment2 img {
+    border  : 1px solid #FFFFFF;
+    padding : 24px 0 0 20px;
+    }
+
+#p5 {
+    font-size   : 22px;
+    font-weight : bold;
+    text-align  : center;
+    text-shadow : 2px 2px 2px #888888;
+    }
+
+#p6 {
+    font-size       : 18px;
+    padding         : 0 0 0 10PX;
+    text-decoration : underline;
+    margin          : 10px 10px 10px 20px;
+    }
+
+#p7 {
+    margin : 15px 14px 10px 30px;
+    }
+
+#p8 {
+    margin : 10px 10px 10px 30px;
+    }
+
+#button2 {
+    display          : inline-block;
+    margin           : 14px 20px 20px 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    vertical-align   : middle;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+#button2:hover {
+    display          : inline-block;
+    margin           : 14px 20px 20px 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    text-decoration  : none;
+    border           : 1px solid #98a0a5;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #98a0a5;
+    color            : #073e80;
+    }
+
+#button2:focus {
+    display          : inline-block;
+    margin           : 14px 20px 20px 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+form {
+    border : 1px solid #FFFFFF;
+    margin : 30px 0 0 30px;
+    }
+
+#label3 {
+    margin : 0 0 0 20px;
+    }
+
+#input2 {
+    display        : inline-block;
+    width          : 140px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 4px;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+#label4 {
+    margin : 0 0 0 20px;
+    }
+
+#result2 {
+    display        : inline-block;
+    width          : 140px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 0;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+/* Start of Assignment #3 */
+
+#assignment3 {
+    display          : block;
+    position         : absolute;
+    width            : 700px;
+    height           : 360px;
+    top              : 180px;
+    left             : 240px;
+    border           : 1px solid #2E2E37;
+    margin           : auto;
+    font-weight      : normal;
+    font-family      : arial, sans-serif;
+    line-height      : 18px;
+    font-size        : medium;
+    color            : black;
+    background-color : #FFFFFF;
+    }
+
+#assignment3 img {
+    border  : 1px solid #FFFFFF;
+    padding : 24px 0 0 20px;
+    }
+
+#p9 {
+    font-size   : 22px;
+    font-weight : bold;
+    text-align  : center;
+    text-shadow : 2px 2px 2px #888888;
+    }
+
+#p10 {
+    font-size       : 18px;
+    padding         : 0 0 0 10PX;
+    text-decoration : underline;
+    margin          : 10px 10px 10px 20px;
+    }
+
+#p11 {
+    margin : 15px 10px 10px 30px;
+    }
+
+#p12 {
+    margin : 10px 10px 10px 30px;
+    }
+
+#button3 {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : 600;
+    font-size        : 16px;
+    text-align       : center;
+    vertical-align   : middle;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+#button3:hover {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : bold;
+    font-size        : 16px;
+    text-align       : center;
+    text-decoration  : none;
+    border           : 1px solid #98a0a5;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #98a0a5;
+    color            : #073e80;
+    }
+
+#button3:focus {
+    display          : inline-block;
+    margin           : 20px;
+    padding          : 10px 15px;
+    font-weight      : bold;
+    font-size        : 16px;
+    text-align       : center;
+    text-decoration  : none;
+    border           : 1px solid #becad3;
+    border-radius    : 6px;
+    box-shadow       : 4px 4px 2px #888888;
+    background-color : #becad3;
+    color            : #00afaf;
+    }
+
+form {
+    border : 1px solid #FFFFFF;
+    margin : 30px 0 0 30px;
+    }
+
+#label5 {
+    margin : 0 0 0 20px;
+    }
+
+#input3 {
+    display        : inline-block;
+    width          : 130px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 4px;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+#label6 {
+    margin : 0 0 0 20px;
+    }
+
+#result3 {
+    display        : inline-block;
+    width          : 90px;
+    height         : 30px;
+    border         : 1px solid #A9A9A9;
+    padding        : 14px 0 0 0;
+    margin         : 0 0 0 0;
+    text-align     : center;
+    vertical-align : middle;
+    }
+
+#footer {
+    position         : fixed;
+    display          : block;
+    border-bottom    : 4px solid #7f1000;
+    font-family      : 'Tangerine', serif;
+    font-size        : 26px;
+    background-color : #2E2E37;
+    color            : #bbbbbb;
+    text-align       : right;
+    width            : 100%;
+    height           : 40px;
+    margin           : auto;
+    bottom           : 0;
+    left             : 0;
+    }
+
+#footer p {
+    margin : 13px 18px 0 0;
+    }
