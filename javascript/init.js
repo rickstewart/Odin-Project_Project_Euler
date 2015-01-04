@@ -28,7 +28,6 @@ reset = function () {
     document.getElementById("result1").innerHTML = "";
     document.getElementById("result2").innerHTML = "";
     document.getElementById("result3").innerHTML = "";
-    return;
 };
 
 /* function to calculate the sum of all multiples of 3 and 5 below a given number. */
