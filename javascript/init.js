@@ -46,7 +46,6 @@ multiples = function () {
     }
     var result1 = document.getElementById("result1");    // get a reference to output answer field.
     result1.innerHTML = countHits.toString();            // display the answer.
-    return;
 };
 
 /* function to find the sum of the even numbered terms in a Fibonacci sequence  */
